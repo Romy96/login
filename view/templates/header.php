@@ -10,12 +10,12 @@
 <!-- Optional theme -->
 <link rel="stylesheet" href="<?= URL ?>css/bootstrap-theme.min.css">
 
-<link rel="stylesheet" href="<?= URL ?>css/main.css">
+<link rel="stylesheet" href="<?= URL ?>css/style.css">
 <!-- Latest compiled and minified JavaScript -->
 </head>
 <body>
 
 <div class="topbar">
-	<span class="" style="float:right;"><a class="navbar_link" href="register.php">Registreren</a></span>
+	<span class="" style="float:right;"><a class="navbar_link" href="<?= URL ?>register/create">Registreren</a></span>
 	<span class="" style="float:right;"><a class="navbar_link" href="login.php">Inloggen</a></span>
 </div>

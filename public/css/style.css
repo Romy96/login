@@ -1,0 +1,123 @@
+
+body {
+	padding:0;
+	margin:0;
+}
+
+p {
+    font: Verdana;
+}
+
+.topbar {
+	width: 100%-10px;
+	height: 24px;
+	color: white;
+	background-color: black;
+	padding: 5px;
+}
+
+.errors {
+	color: #D8000C;
+	background-color: #FFBABA;
+	margin: 10px 0;
+	padding: 12px;
+}
+
+.topbar span a {
+	color: white;
+}
+
+img.homepage {
+   position:absolute;  
+    opacity: 0.5;
+}
+
+div.topmenu{
+    background-image: url(../img/homepage.jpg);
+    width: 1000px;
+	vertical-align: top;
+    text-align: center;
+    color:white;
+    border: solid;
+    border-color: black;
+    border-width: thick;
+    opacity: 0.5;
+}
+
+div.container{
+    position: absolute;
+    left: 10%;
+    right: 1;
+    margin: auto;
+}
+
+.img {
+	float: left; 
+	margin-right: 16px; 
+	width: 300px; 
+	height: 160px; 
+	border: 1px solid silver;
+	margin-top: 2%;
+}
+
+.img2 {
+	width: 276px; 
+	height: 136px; 
+	margin: 12px;
+}
+
+.data_info {
+	font-family: roboto; 
+	color: white; 
+	font-size: 14pt;   
+	text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px silver, -1px -1px 0 silver, 1px -1px 0 silver, -1px 1px 0 silver; 
+}
+
+.banner {
+	text-align: center; 
+	margin-left: 20%; 
+	width: 1000px; 
+	height: 100px; 
+	border: 1px solid black;
+	margin-top: 2%;
+}
+
+.title 
+{
+	color: rgb(255, 196, 112);
+	font-size: 54px;
+}
+
+div.debugbar {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	min-height: 80px;
+	background-color: pink;
+	color: black;
+	border: 1px solid silver;
+}
+
+div.debugbar .col {
+	width: 32%;
+	float: right;
+	margin-right: 1%;
+	font-size: 8pt;
+}
+
+div.debugbar .col p {
+	margin: 0;
+	padding: 0;
+}
+
+.navbar_link {
+	padding: 3px;
+}
+
+ul, li {
+    margin:0;
+    padding:0;
+    list-style-type:none;
+}
+
