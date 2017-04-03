@@ -40,5 +40,5 @@ function createSave($Gebruikersnaam = '')
 		exit();
 	}
 
-	header("Location:" . URL . "home/index");
+	header("Location:" . URL . "login/login");
 }

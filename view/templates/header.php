@@ -17,5 +17,5 @@
 
 <div class="topbar">
 	<span class="" style="float:right;"><a class="navbar_link" href="<?= URL ?>register/create">Registreren</a></span>
-	<span class="" style="float:right;"><a class="navbar_link" href="login.php">Inloggen</a></span>
+	<span class="" style="float:right;"><a class="navbar_link" href="<?= URL ?>login/login">Inloggen</a></span>
 </div>
